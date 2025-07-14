@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  root: ".", // 
+  root: ".", // Important pour que Vite trouve public/index.html
 });
